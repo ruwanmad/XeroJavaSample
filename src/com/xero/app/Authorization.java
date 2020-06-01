@@ -27,7 +27,7 @@ public class Authorization extends HttpServlet {
     // Set these values using envirnoment variables or hardcoded.
     final String clientId = "12BB83BA368C4F3A80384992256A0BB1";//System.getenv("XERO_CLIENT_ID");
     final String clientSecret = "g3PQoTdkbDG7MOHcVWegA4Czu0OqCYUK_xxtb0Ofb8EPbes6";//System.getenv("XERO_CLIENT_SECRET");
-    final String redirectURI = "https://sapro-xero-demo.herokuapp.com/";//System.getenv("XERO_REDIRECT_URI");
+    final String redirectURI = "https://sapro-xero-demo.herokuapp.com/Callback";//System.getenv("XERO_REDIRECT_URI");
     
     final String TOKEN_SERVER_URL = "https://identity.xero.com/connect/token";
     final String AUTHORIZATION_SERVER_URL = "https://login.xero.com/identity/connect/authorize";
